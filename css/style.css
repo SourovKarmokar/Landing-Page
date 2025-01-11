@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.container{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+/* NAVBAR CSS START */
+#nevbar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#nevbar .nav_wrapper{
+    display: flex;
+    align-items: center;
+    
+}
+
+#nevbar .logo{
+    width: 20%;
+}
+#nevbar .navitems{
+    width: 60%;
+}
+#nevbar .button{
+    width: 20%;
+}
+
+#nevbar .navitems ul{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    
+}
+
+#nevbar .navitems ul li a{
+    font-family: "Space Grotesk", serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+    font-weight: medium;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#nevbar .button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nevbar .button .button_2{
+    background-color: #4CAF4F;
+    width: 91px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-family: "Space Grotesk", serif;
+    justify-items: center;
+
+    
+}
+#nevbar .button .button_1{
+    border: none;
+    background-color: white;
+    color: #4CAF4F;
+    font-family: "Space Grotesk", serif;
+    font-weight: medium;
+    line-height: 20px;
+    width: 77px;
+    height: 40px;
+
+}
+/* NAVBAR CSS START */
+
+
+/* REGISTER CSS START */
+#register_part .register_wrapper {
+    display: flex;
+    margin-top: 96px;
+    justify-content: space-between;
+}
+#register_part .register_wrapper .register_left h1{
+    font-family: "Space Grotesk", serif;
+    font-weight:  600;
+    font-size: 64px;
+    line-height: 76px;
+    letter-spacing: 0;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 161px;
+    
+
+}
+#register_part .register_wrapper .register_left h1 span{
+    color: #4CAF4F;
+}
+#register_part .register_wrapper .register_left p{
+    margin-top: 16px;
+    font-family: "Space Grotesk", serif;
+}
+
+#register_part .register_wrapper button{
+    display: flex;
+    font-family: "Space Grotesk", serif;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 52px;
+    padding: 32px 14px;
+    background-repeat: 4px;
+    opacity: 1;
+    border: none;
+    background-color: #4CAF4F;
+    margin-top: 32px;
+    border-radius: 4px;
+}
+
+
+#register_part .register_wrapper .register_right {
+    margin-top: 96px;
+}
+
+/* REGISTER CSS END */
