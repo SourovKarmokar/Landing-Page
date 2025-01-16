@@ -1,19 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
     display: inline-block;
 }
 
-ul, li{
+ul,
+li {
     list-style: none;
 }
 
-.container{
+.container {
     width: 1152px;
     margin: 0 auto;
 }
@@ -24,30 +25,32 @@ ul, li{
     padding-bottom: 30px;
 }
 
-#nevbar .nav_wrapper{
+#nevbar .nav_wrapper {
     display: flex;
     align-items: center;
-    
+
 }
 
-#nevbar .logo{
+#nevbar .logo {
     width: 20%;
 }
-#nevbar .navitems{
+
+#nevbar .navitems {
     width: 60%;
 }
-#nevbar .button{
+
+#nevbar .button {
     width: 20%;
 }
 
-#nevbar .navitems ul{
+#nevbar .navitems ul {
     display: flex;
     justify-content: flex-end;
     color: black;
-    
+
 }
 
-#nevbar .navitems ul li a{
+#nevbar .navitems ul li a {
     font-family: "Space Grotesk", serif;
     text-transform: capitalize;
     font-size: 16px;
@@ -56,12 +59,13 @@ ul, li{
     margin-left: 25px;
     margin-right: 25px;
 }
+
 #nevbar .button {
     display: flex;
     justify-content: flex-end;
 }
 
-#nevbar .button .button_2{
+#nevbar .button .button_2 {
     background-color: #4CAF4F;
     width: 91px;
     height: 40px;
@@ -72,9 +76,10 @@ ul, li{
     font-family: "Space Grotesk", serif;
     justify-items: center;
 
-    
+
 }
-#nevbar .button .button_1{
+
+#nevbar .button .button_1 {
     border: none;
     background-color: white;
     color: #4CAF4F;
@@ -85,6 +90,7 @@ ul, li{
     height: 40px;
 
 }
+
 /* NAVBAR CSS START */
 
 
@@ -92,29 +98,33 @@ ul, li{
 #register_part .register_wrapper {
     display: flex;
     margin-top: 96px;
+    margin-bottom: 96px;
     justify-content: space-between;
 }
-#register_part .register_wrapper .register_left h1{
+
+#register_part .register_wrapper .register_left h1 {
     font-family: "Space Grotesk", serif;
-    font-weight:  600;
+    font-weight: 600;
     font-size: 64px;
     line-height: 76px;
     letter-spacing: 0;
     text-align: left;
     vertical-align: top;
     margin-top: 161px;
-    
+
 
 }
-#register_part .register_wrapper .register_left h1 span{
+
+#register_part .register_wrapper .register_left h1 span {
     color: #4CAF4F;
 }
-#register_part .register_wrapper .register_left p{
+
+#register_part .register_wrapper .register_left p {
     margin-top: 16px;
     font-family: "Space Grotesk", serif;
 }
 
-#register_part .register_wrapper button{
+#register_part .register_wrapper button {
     display: flex;
     font-family: "Space Grotesk", serif;
     /* flex-direction: row; */
@@ -137,3 +147,146 @@ ul, li{
 }
 
 /* REGISTER CSS END */
+
+/* OUR CLIENT START */
+#our_client .our_client_wrapper h3 {
+    margin-top: 40px;
+    /* Appearance */
+    opacity: 1;
+    /* 100% */
+    border-radius: 0px;
+    /* Corner radius is 0 */
+
+    /* Typography */
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    /* Semi Bold */
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0;
+    /* 0% */
+    text-align: center;
+    /* Alignment */
+
+    /* Fill */
+    color: #4D4D4D;
+    /* Text color */
+}
+
+#our_client .our_client_wrapper p {
+    margin-top: 8px;
+    /* Appearance */
+    opacity: 1;
+    /* 100% */
+    border-radius: 0px;
+    /* Corner radius is 0 */
+
+    /* Typography */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    /* Semi Bold */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    /* 0% */
+    text-align: center;
+    /* Alignment */
+
+    /* Fill */
+    color: #717171;
+    /* Text color */
+}
+
+
+/* OUR CLIENT END */
+
+/* LOGO PART START */
+#logo .logo_wrapper {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* LOGO PART END */
+
+/* MANAGER PART START */
+
+#manager h1 {
+    font-family: 'Inter', sans-serif;
+    /* Ensure you import the Inter font */
+    font-weight: 600;
+    /* Semi Bold */
+    font-size: 36px;
+    /* Font size */
+    line-height: 44px;
+    /* Line height */
+    letter-spacing: 0%;
+    /* No letter spacing */
+    color: #4D4D4D;
+    /* Text color */
+    text-transform: uppercase;
+    /* Uppercase transformation */
+    margin-top: 40px;
+    /* Spacing from the top */
+    text-align: center;
+    /* Align the text centrally */
+}
+
+#manager h1 span {
+    display: block;
+    /* Treat the span as an inline block */
+}
+
+#manager p {
+    font-family: 'Inter', sans-serif;
+    /* Match the font family */
+    font-weight: 400;
+    /* Regular font weight */
+    font-size: 16px;
+    /* Font size for the paragraph */
+    line-height: 20px;
+    /* Line height for readability */
+    color: #4D4D4D;
+    /* Match text color */
+    text-align: center;
+    /* Center-align the paragraph */
+    margin-top: 10px;
+    /* Adjust spacing below the heading */
+}
+
+/* MANAGER PART END */
+
+
+/* CARD PART START */
+
+#card .card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#card .card-wrapper .cade1 {
+    width: 300px;
+    justify-items: center;
+}
+
+#card .card-wrapper .cade1 h1 {
+
+    font-family: 'Inter', sans-serif;
+    /* Assuming Inter is loaded */
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #4D4D4D;
+    text-align: center;
+    /* Dark grey color */
+}
+#card .card-wrapper .cade1 p{
+    text-align: center;
+}
+
+/* CARD PART END */
