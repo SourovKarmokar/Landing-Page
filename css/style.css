@@ -266,6 +266,7 @@ li {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    margin-bottom: 34px;
 }
 
 #card .card-wrapper .cade1 {
@@ -289,4 +290,132 @@ li {
     text-align: center;
 }
 
+
+#card .card-wrapper .cade2 {
+    width: 300px;
+    justify-items: center;
+}
+
+#card .card-wrapper .cade2 h1{
+ 
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0%;
+        color: #4D4D4D;
+        text-align: center;
+    
+}
+#card .card-wrapper .cade2 h1 span{
+    display: block;
+}
+#card .card-wrapper .cade2 p{
+    text-align: center;
+}
+
+
+
+#card .card-wrapper .cade3 {
+    width: 300px;
+    justify-items: center;
+}
+#card .card-wrapper .cade3 h1{
+ 
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #4D4D4D;
+    text-align: center;
+
+}
+#card .card-wrapper .cade3 h1 span{
+display: block;
+}
+#card .card-wrapper .cade3 p{
+text-align: center;
+}
+
+
+
 /* CARD PART END */
+
+
+/* Pixelgrade part start */
+#Pixelgrade .pixelgrade-rapper{
+    display: flex;
+}
+
+#Pixelgrade .pixelgrade-rapper .pixelgrade-right{
+
+    margin-top: 82px;
+    margin-bottom: 82px;
+    margin-left: 50px;
+}
+
+#Pixelgrade .pixelgrade-rapper .pixelgrade-right h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600; /* Semi Bold in Inter usually corresponds to 600 weight */
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #4D4D4D; 
+}
+
+#Pixelgrade .pixelgrade-rapper .pixelgrade-right h1 span{
+    display: block;
+}
+
+#Pixelgrade .pixelgrade-rapper .pixelgrade-right button{
+   
+        display: flex;
+        font-family: "Space Grotesk", serif;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+        width: 128px;
+        height: 52px;
+        padding: 32px 14px;
+        background-repeat: 4px;
+        opacity: 1;
+        border: none;
+        background-color: #4CAF4F;
+        margin-top: 32px;
+        border-radius: 4px;
+    
+}
+
+/* Pixelgrade part end */
+
+/* TASLA PART START */
+
+#tesla .tesla_wrapper {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+#tesla .tesla_wrapper .tesl_right h3{
+    font-family: 'Inter', sans-serif;
+  font-weight: 600; /* Semi Bold in Inter */
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #4CAF4F; /* Green color */
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+
+#tesla .tesla_wrapper .tesl_right .image{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 33px;
+    justify-content: space-between;
+}
+
+
+/* TASLA PART END */
