@@ -419,3 +419,107 @@ text-align: center;
 
 
 /* TASLA PART END */
+
+/* markteing part start */
+#markteing .markteing-wrapper h1{
+    font-family: 'Inter', sans-serif;
+  font-weight: 600; /* Semi Bold in Inter */
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  color: #4D4D4D;
+  text-align: center;
+}
+#markteing .markteing-wrapper p{
+    margin-left: 241px;
+    margin-right: 241px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+  font-weight: normal; /* Regular weight */
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #717171;
+  justify-content: center;
+}
+/* markteing part end */
+
+
+/* CARD PART START */
+
+#card_1 .card_1_rapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 95px;
+}
+#card_1 .card_1_rapper img {
+    width: 368px;
+}
+
+#card_1 .card_1_rapper .card_1_1{
+position: relative;
+}
+
+#card_1 .card_1_rapper h2{
+    width: 317px;
+    background-color: #F5F7FA;
+    font-family: 'Inter', sans-serif;
+  font-weight: 600; /* Semi Bold in Inter usually corresponds to 600 weight */
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #717171;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-55%);
+}
+
+
+#card_1 .card_1_rapper .card_1_2{
+    position: relative;
+
+}
+
+
+#card_1 .card_1_rapper .card_1_2 h2{
+    width: 317px;
+    background-color: #F5F7FA;
+    font-family: 'Inter', sans-serif;
+  font-weight: 600; /* Semi Bold in Inter usually corresponds to 600 weight */
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #717171;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-55%);
+}
+
+
+#card_1 .card_1_rapper .card_1_3{
+    position: relative;
+}
+
+#card_1 .card_1_rapper .card_1_3 h2{
+    width: 317px;
+    background-color: #F5F7FA;
+    font-family: 'Inter', sans-serif;
+  font-weight: 600; /* Semi Bold in Inter usually corresponds to 600 weight */
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #717171;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-55%);
+}
+
+/* CARD PART END */
