@@ -556,3 +556,99 @@ position: relative;
     margin-bottom: 32px;
 }
 /* Pellentesque part end */
+
+/* FUTTER PART START */
+#futtor{
+    background-color:#263238;
+    
+}
+#futtor .futto_wrapper {
+    display: flex;
+    margin-bottom: 75px;
+    
+}
+#futtor .futto_wrapper .futter-left  {
+    padding-top: 65px;
+    margin-left: 165px;
+    
+    color: #263238;
+
+}
+
+#futtor .futto_wrapper  .futter-left p {
+color: #F5F7FA;
+padding-top: 40px;
+display: block;
+
+} 
+#futtor .futto_wrapper  .futter-left p span{
+    display: inline-block;
+}
+#futtor .futto_wrapper  .futter-left  .font {
+    margin-top: 40px;
+}
+#futtor .futto_wrapper  .futter-right .a{
+    display: flex;
+}
+#futtor .futto_wrapper  .futter-right .lastpart_1 h4{
+    margin-top: 65px;
+    margin-left: 195px;
+    color: white;
+    margin-bottom: 25px;
+    opacity: 1; 
+  border-radius: 0; /* No rounded corners */
+  font-family: 'Inter', sans-serif;  
+  font-weight: 600; /* Semi-bold typically corresponds to 600 weight */
+  font-size: 20px; 
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left; /* Assuming the first alignment icon represents left align */ 
+  color: #FFFFFF; /* White color */
+
+}
+
+
+
+#futtor .futto_wrapper .futter-right .lastpart_1 a{
+    color: white;
+    column-gap: 12px;
+    margin-left: 195px;
+}
+
+
+#futtor .futto_wrapper .futter-right .lastpart_2 h4{
+    margin-top: 65px;
+    margin-left: 85px;
+    color: white;
+    margin-bottom: 25px;
+    opacity: 1; 
+  border-radius: 0; /* No rounded corners */
+  font-family: 'Inter', sans-serif;  
+  font-weight: 600; /* Semi-bold typically corresponds to 600 weight */
+  font-size: 20px; 
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left; /* Assuming the first alignment icon represents left align */ 
+  color: #FFFFFF; /* White color */
+
+}
+
+#futtor .futto_wrapper    .futter-right .lastpart_2 a{
+    color: white;
+   display: inline-block;
+    margin-left: 85px;
+}
+
+#futtor .futto_wrapper    .futter-right{
+    display: flex;
+}
+#futtor .futto_wrapper    .futter-right .text h1{
+    margin-top: 65px;
+    color: white;
+    margin-left: 30px;
+   
+    
+    
+}
+
+/* FUTTER PART END */
